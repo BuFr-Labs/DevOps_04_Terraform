@@ -1,2 +1,2 @@
-# DevOps_05_Terraform
-Repozitoř k 5. lekci
+# DevOps_04_Terraform
+Repozitoř k 4. lekci
