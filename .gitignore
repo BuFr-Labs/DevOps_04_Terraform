@@ -1,0 +1,20 @@
+# Lokální Terraform složky a zamykací soubory
+.terraform/
+.terraform.lock.hcl
+
+# Stavové soubory Terraformu (obsahují citlivá data a strukturu tvého cloudu!)
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Soubory s proměnnými, pokud bys do nich dával tajné hodnoty
+*.tfvars
+*.tfvars.json
+
+# Ochrana SSH klíčů (pokud si je vygeneruješ do této složky)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
